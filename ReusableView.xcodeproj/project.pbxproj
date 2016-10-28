@@ -12,6 +12,8 @@
 		77C7B2BA1DC35F0300BAFDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C7B2B81DC35F0300BAFDDB /* Main.storyboard */; };
 		77C7B2BC1DC35F0300BAFDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C7B2BB1DC35F0300BAFDDB /* Assets.xcassets */; };
 		77C7B2BF1DC35F0300BAFDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C7B2BD1DC35F0300BAFDDB /* LaunchScreen.storyboard */; };
+		77C7B2C71DC35F5300BAFDDB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C7B2C61DC35F5200BAFDDB /* CustomView.swift */; };
+		77C7B2C91DC35F6200BAFDDB /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C7B2C81DC35F6200BAFDDB /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		77C7B2BB1DC35F0300BAFDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77C7B2BE1DC35F0300BAFDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77C7B2C01DC35F0300BAFDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C7B2C61DC35F5200BAFDDB /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		77C7B2C81DC35F6200BAFDDB /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				77C7B2B41DC35F0300BAFDDB /* AppDelegate.swift */,
 				77C7B2B61DC35F0300BAFDDB /* ViewController.swift */,
+				77C7B2C61DC35F5200BAFDDB /* CustomView.swift */,
+				77C7B2C81DC35F6200BAFDDB /* CustomView.xib */,
 				77C7B2B81DC35F0300BAFDDB /* Main.storyboard */,
 				77C7B2BB1DC35F0300BAFDDB /* Assets.xcassets */,
 				77C7B2BD1DC35F0300BAFDDB /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77C7B2BF1DC35F0300BAFDDB /* LaunchScreen.storyboard in Resources */,
+				77C7B2C91DC35F6200BAFDDB /* CustomView.xib in Resources */,
 				77C7B2BC1DC35F0300BAFDDB /* Assets.xcassets in Resources */,
 				77C7B2BA1DC35F0300BAFDDB /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C7B2C71DC35F5300BAFDDB /* CustomView.swift in Sources */,
 				77C7B2B71DC35F0300BAFDDB /* ViewController.swift in Sources */,
 				77C7B2B51DC35F0300BAFDDB /* AppDelegate.swift in Sources */,
 			);
